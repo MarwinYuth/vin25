@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="Css/Style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+
+    
+
+    <!--Comment Drop-->
+    <div class="join-drop">
+
+        <div class="join-form">
+            
+            <h3 class="text-white text-xl font-bold">Send me a Email here</h3>
+
+           <div class="mt-4">
+
+            <div class="mb-2 text-red-800 text-2xl" id="errorcmt"></div>
+            <input id="email" type="Email" placeholder="Input Your Email" class="w-72 rounded-xl text-center"><br><br>
+            <input id="cmt" type="Email" placeholder="Comment" class="w-72 rounded-xl text-center">
+            <br><br>
+            <button id="submit" class="w-20 rounded font-bold text-black">Submit</button>
+
+           </div>
+
+        </div>
+
+    </div>
+     <!--Comment Drop-->
+
+    
+   <div class="nav-bg">
+
+        <!--Nav Start-->
+        <div class="container pt-4 flex justify-between sticky top-0">
+
+            <p class="text-4xl">TUll</p>
+            
+           <div class="img-log">
+
+            <img src="Img/Kazuha.jpg" alt="">
+
+            <i class="fa-solid fa-right-from-bracket" id="logout"></i>
+
+            <button class="text-xl bg-pink-500 w-32 text-white rounded" id="join">Join</button>
+
+           </div>
+
+        </div>
+        <!--Nav Ends-->
+
+    </div>
+
+
+   
+    <div class="container">
+
+        <!--Intro-->
+        <div class="row flex justify-between">
+
+            <div class="col-md-6">
+
+                <div class="col">
+
+                    <p class="text-center text-2xl font-bold" id="text-detail">
+                        Test our Testy Fast Food Ever<br>
+                        Made by our Professional Chef.<br>
+                        Our Food will made your Days.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="col food-img">
+
+                    <img src="Food.png" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--Intro-->
+
+
+        <!--Switch Dark Mode-->
+        <div class="row mt-4 flex justify-between align-center">
+
+            <div class="col-md-3">
+                <h3 class="font-bold text-2xl" id="brow">Browser Our Hottest</h3>
+            </div>  
+
+           <div class="col-md-3 flex justify-end">
+               
+                <div class="switch">
+
+                    <button id="btn"><span>Night Mode</span></button>
+
+                </div>
+
+           </div>
+
+        </div>
+        <!--Switch Dark Mode-->
+
+        <div class="row">
+
+            <!--Featured-->
+            <div class="col-md-4 m-auto pl-28" id="Feature">
+                <p class="text-2xl font-bold text-center">Featured Product</p>
+
+                <ul class="inline">
+                    <li>All Product</li>
+                    <li>BEAN</li>
+                    <li>BREAD</li>
+                    <li>FRUITE</li>
+                    <li>VEGETABLE</li>
+                </ul>
+
+            </div>
+            <!--Featured-->
+
+        </div>
+
+        <!--Box-->
+        <div class="row mt-4" id="text-box">
+
+            <!--Box1-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/Buger.jpg" alt="">
+
+                    <p class="text-center text-xl">Tasty Burgur</p>
+                    <p class="text-center text-xl">2.5 $</p>
+                </div>
+
+            </div>
+            <!--Box1-->
+
+            <!--Box2-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/pizza.jpg" alt="">
+
+                    <p class="text-center text-xl">Tasty Pizza</p>
+                    <p class="text-center text-xl">4.5 $</p>
+                </div>
+
+            </div>
+            <!--Box2-->
+
+            <!--Box3-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/Sandwich.jpg  " alt="">
+
+                    <p class="text-center text-xl">Tasty Sandwich</p>
+                    <p class="text-center text-xl">1.25 $</p>
+                </div>
+
+            </div>
+            <!--Box3-->
+
+            <!--Box4-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/Japanese Omelet.jpg" alt="">
+
+                    <p class="text-center text-xl">Japanese Omelet</p>
+                    <p class="text-center text-xl">2.75 $</p>
+                </div>
+
+            </div>
+             <!--Box4-->
+
+        </div>
+        <!--Box-->
+
+        <div class="row mt-4" id="text-box1">
+
+            <!--Box1-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/Milk tea.jpg" alt="">
+
+                    <p class="text-center text-xl">Tasty Burgur</p>
+                    <p class="text-center text-xl">2.5 $</p>
+                </div>
+
+            </div>
+            <!--Box1-->
+
+            <!--Box2-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/Cocktail.jpeg" alt="">
+
+                    <p class="text-center text-xl">Cocktail Blue Margarita</p>
+                    <p class="text-center text-xl">5.25 $</p>
+                </div>
+
+            </div>
+            <!--Box2-->
+
+            <!--Box3-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/Tequila.jpg" alt="">
+
+                    <p class="text-center text-xl">Tasty Burgur</p>
+                    <p class="text-center text-xl">2.5 $</p>
+                </div>
+
+            </div>
+            <!--Box3-->
+
+            <!--Box4-->
+            <div class="col-md-3">
+
+                <div class="box-list">
+                    
+                    <img src="img/Mojitolime.jpg" alt="">
+
+                    <p class="text-center text-xl">Tasty Burgur</p>
+                    <p class="text-center text-xl">3.5 $</p>
+                </div>
+
+            </div>
+             <!--Box4-->
+
+        </div>
+
+    </div>
+
+    <div class="container text-center mt-14">
+
+
+        <div class="row">
+
+            <!--Make Payment--> 
+            <div class="col-md-5 m-auto relate">
+
+            
+                <div class="order">
+                    
+                    <label for="" class="text-lg font-bold">Customer Name : </label>
+                    <input type="Name" placeholder="Input Name" id="clientname">
+                    <br><br>
+                    <label for="" class="text-lg font-bold">Select Food : </label>
+                    <select name="" id="selected">
+                        <option value="Click to Select" id="select-click">Click to Select</option>
+                        <option value="Tasty-Burgur" id="burgur">Tasty Burgur</option>
+                        <option value="Tasty-Pizza" id="pizza">Tasty Pizza</option>
+                        <option value="Tasty-Sandwich" id="sandwich">Tasty Sandwich</option>
+                        <option value="Japanese-Omelet" id="omemlet">Japanese Omelet</option>
+                    </select>
+                    <br><br>
+                    <label for="" class="pl-14 text-lg font-bold">Qty :</label>
+                    <input type="number" placeholder="Qty" class="ml-12" id="qty">
+                    
+                    <br><br>
+                    
+                    <div>
+
+                        <button id="order" class="hover:bg-cyan-400">Order</button>
+
+                        <button id="clear" class="hover:bg-cyan-400">Clear</button>
+
+                    </div>
+
+                </div>
+    
+            </div>
+            <!--Make Payment-->
+
+            
+            <!--Order-LeftSide-->
+            <div class="col-md-3 m-auto obso pay-bg" id="payment">
+                
+                <div class="border border-red-800 payment-bg">
+
+                    <span class="text-2xl text-white">Customer Name : </span><span class="text-xl text-white" id="cusname"></span>
+
+                    <br>
+                    <br>
+
+                    <span class="text-2xl text-white">Your Order : </span><span class="text-xl text-white" id="ordertext"></span>
+
+                    <br>
+                    <br>
+
+                    <span  class="text-2xl text-white" >Quntity Order : </span><span class="text-xl text-white" id="quantity"></span>
+
+                    <br>
+                    <br>
+
+                    <span  class="text-2xl text-white" >Total Price : </span><span class="text-xl text-white" id="Total"></span>
+                    
+
+                </div>
+
+            </div>
+            <!--Order-LeftSide-->
+
+        </div>
+
+    </div>
+
+
+    <footer class="w-full bg-black mt-16">
+        
+        <div class="w-5/6 m-auto text-white flex justify-between ">
+            
+            <div class="ml-16 flex justify-between items-center mb-64 mt-16 cursor-pointer">
+                <img src="img/MLogo.png" alt="" class="w-16 h-16 cursor-pointer bg-white rounded"><span class="text-white text-xl cursor-pointer ml-4">Shop</span>
+            </div>
+                
+            <div class="mt-8 text-lg list-none mt-16">
+                <li class="p-2 hover:text-green-300 cursor-pointer">Term of Service</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Privacy policy</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Cookie policy</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Data processing agreement</li>
+            </div>
+
+            <div class="mt-8 text-lg list-none  mt-16">
+                <li class="p-2 hover:text-green-300 cursor-pointer">User guide</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Contributing guide</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Technical guide</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">FAQs</li>
+            </div>
+
+            <div class="mt-8 text-lg list-none  mt-16">
+                <li class="p-2 hover:text-green-300 cursor-pointer">The Project</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">About Us</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Community</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Newsletter</li>
+            </div>
+
+            <div class="mr-20 mt-8 text-lg list-none  mt-16">
+                <li class="p-2 hover:text-green-300 cursor-pointer">Twitter</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Instagram</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Github</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Likedin</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Youtube</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Mastodon</li>
+                <li class="p-2 hover:text-green-300 cursor-pointer">Product Hunt</li>
+            </div>
+
+        </div>
+
+        <div class="text-gray-400 text-center h-28">
+            Penpot © 2022 | Made with LOVE and Open Source
+        </div>
+
+    </footer>
+
+        
+    <script src="Javascript/Java.js"></script>
+</body>
+</html>

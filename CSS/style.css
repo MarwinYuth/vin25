@@ -1,0 +1,172 @@
+.container{
+    width: 700px;
+    margin: auto;
+    box-shadow: 0 0 10px 0 black;
+}
+.manage-column{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 380px;
+}
+.col1{
+    width: 780px;
+    background-color: #3ab19b;
+}
+.col2{
+    width: 800px;
+    background-color: white;
+}
+
+.col1 input{
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.col1 button{
+    color: white;
+    width: 250px;
+    border: 2px solid white;
+    height: 50px;
+    border-radius: 10px;
+}
+.col1 button:hover{
+    background-color: tomato;
+    transition: 0.8s;
+}
+
+.col2 input{
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+}
+.col2 button{
+    color: black;
+    width: 250px;
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 10px;
+}
+.col2 button:hover{
+    background-color: #3ab19b;
+    transition: 0.8s;
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    .manage-column{
+        width: 580px;
+        margin-top: 10%;
+        height: 380px;
+    }
+    .col1 input{
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+        outline: none;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .col1 h2{
+        font-size: 15px;
+    }
+    .col1 button{
+        color: white;
+        width: 150px;
+        border: 2px solid white;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .col2 input{
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+        outline: none;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .col2 h2{
+        font-size: 15px;
+    }
+    .col2 button{
+        color: black;
+        width: 150px;
+        border: 2px solid black;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 640px)
+{
+    .container{
+        width: 150px;
+        margin: auto;
+        box-shadow: 0 0 0px 0 black;
+        margin: auto;
+    }
+    .manage-column{
+        width: 580px;
+        margin-left: 55px;
+        height: 380px;
+        display: block;
+    }
+    .col1{
+        width: 250px;
+    }
+    .col1 input{
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+        outline: none;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .col1 h2{
+        font-size: 15px;
+    }
+    .col1 button{
+        color: white;
+        width: 150px;
+        border: 2px solid white;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .col2{
+        width: 250px;
+        margin-top: 5px;
+        border: 2px solid black;
+    }
+    .col2 input{
+        width: 150px;
+        padding: 10px;
+        text-align: center;
+        outline: none;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .col2 h2{
+        font-size: 15px;
+    }
+    .col2 button{
+        color: black;
+        width: 150px;
+        border: 2px solid black;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+}
